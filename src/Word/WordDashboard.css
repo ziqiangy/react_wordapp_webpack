@@ -1,0 +1,52 @@
+
+
+.word-board{
+    border-radius: 15px;
+    background-color: lightyellow;
+    margin: 10px auto;
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    position: relative;
+}
+
+.word-card{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    overflow:auto;
+}
+.vocab{
+    font-size: 30px;
+}
+
+.translation{
+    font-size: 20px;
+}
+
+.word-header{
+    position:relative;
+    /* height:27px; */
+}
+
+
+.last-page-button,
+.next-page-button,
+.show-hide-button,
+.vocab-link,
+.crawler-paw-button{
+    display: inline-block;
+    margin-left:80px;
+}
+
+.word-card-father{
+    position:relative;
+    height: 300px;
+    
+}
+.word-card-footer{
+    position:relative;
+}
+
