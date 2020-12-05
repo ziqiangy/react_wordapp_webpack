@@ -16,7 +16,7 @@ export default class Note extends React.Component{
         this.closeAdd = this.closeAdd.bind(this);
     }
 
-    fetchData(){
+    fetchData = () => {
         var requestOptions = {
             method: 'POST',
             redirect: 'follow'
